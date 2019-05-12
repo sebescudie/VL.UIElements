@@ -1557,7 +1557,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="POWEqKKDwDNOQif1Yj5VVK" Name="String" Position="168,404">
+      <Canvas Id="POWEqKKDwDNOQif1Yj5VVK" Name="String" Position="168,401">
         <!--
 
     ************************ LabelProperties ************************
@@ -11989,7 +11989,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="NkKpKLJWtt1MUJaYWQUd3Q" Name="Vector2D" Position="168,355">
+      <Canvas Id="NkKpKLJWtt1MUJaYWQUd3Q" Name="Vector2D" Position="168,353">
         <!--
 
     ************************ Slider2D ************************
@@ -13979,7 +13979,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="FcKvC9EKPDCMftMXOWhYR0" Name="Boolean" Position="168,306">
+      <Canvas Id="FcKvC9EKPDCMftMXOWhYR0" Name="Boolean" Position="168,305">
         <!--
 
     ************************ ToggleEditor ************************
@@ -17445,7 +17445,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="Fn09YZBQkkWMAVydtt24H8" Name="RGBA" Position="168,453">
+      <Canvas Id="Fn09YZBQkkWMAVydtt24H8" Name="RGBA" Position="168,449">
         <!--
 
     ************************ HSV ************************
@@ -19921,6 +19921,7 @@
           </Patch>
         </Node>
       </Canvas>
+      <Canvas Id="SyufXTQwXSxNCbRl9iGSfF" Name="Int" Position="168,497" BordersChecked="false" />
     </Canvas>
     <!--
 
