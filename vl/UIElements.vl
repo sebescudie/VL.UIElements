@@ -20296,6 +20296,7 @@
                 </p:NodeReference>
                 <Pin Id="GwHkyjEZ6DHLR3z0mXQ1w9" Name="Properties" Kind="InputPin" />
                 <Pin Id="KHxgBrMVoPOOf1a0WZTmNq" Name="Output" Kind="OutputPin" />
+                <Pin Id="N6M0HOi90mKLFlHsvn7N3W" Name="Button Rectangles" Kind="OutputPin" />
               </Node>
               <Node Bounds="463,582,131,19" Id="SvqUUp2zttDLjuf6Ib5zCJ">
                 <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
@@ -20309,6 +20310,7 @@
               <ControlPoint Id="FLlP90NS804N9QdDzdOILU" Bounds="465,627" />
               <ControlPoint Id="QTARZcudI9qPCnisi1aG9D" Bounds="716,530" />
               <ControlPoint Id="Bl1Gs7TawGaNcbP9coopXN" Bounds="842,529" />
+              <ControlPoint Id="Rc2U6E1dg3UNwjL1PLI1fN" Bounds="561,636" />
             </Canvas>
             <Patch Id="QVdG296LaTcLkGo8RUbwhC" Name="Create" />
             <Patch Id="A5IhiThqDUEPlewe0GG7gf" Name="Update">
@@ -20317,6 +20319,7 @@
               <Pin Id="Q7d5ofFs3LqN5XBTDyXIiL" Name="Element Count" Kind="InputPin" Bounds="584,394" />
               <Pin Id="GwTh9BWCzrhLzF8T9ygn2w" Name="Push To Observable" Kind="InputPin" Bounds="512,294" Visibility="Optional" />
               <Pin Id="MPsaalznvC8NGLMKyzAUN9" Name="Value" Kind="InputPin" Bounds="529,331" />
+              <Pin Id="CJ8qLE95hGCOpytGkw04Kb" Name="Button Rectangles" Kind="OutputPin" Bounds="563,637" Visibility="Optional" />
               <Pin Id="D1yhK7y0jvyOFANOyu577v" Name="On Interaction" Kind="OutputPin" Bounds="714,613" />
               <Pin Id="SpyWPvd2vKYNr7hCtLTCzj" Name="Reset Interaction" Kind="InputPin" Bounds="694,381" Visibility="Optional" />
               <Pin Id="B3g0HWviV6GLY4zTCR50kS" Name="Value" Kind="OutputPin" Bounds="841,587" />
@@ -20347,6 +20350,8 @@
             <Link Id="JCSV8pH73KBQI9oaOdoI77" Ids="QTARZcudI9qPCnisi1aG9D,D1yhK7y0jvyOFANOyu577v" IsHidden="true" />
             <Link Id="S9z6HX2KH2sNhhFEWcACFY" Ids="VJcawXxKl5APSBqrwZjbzD,Bl1Gs7TawGaNcbP9coopXN" />
             <Link Id="RRaAQfYIoRrM8vkaO1Fuxm" Ids="Bl1Gs7TawGaNcbP9coopXN,B3g0HWviV6GLY4zTCR50kS" IsHidden="true" />
+            <Link Id="QzjZP4I8nseMhGsw44BDGF" Ids="N6M0HOi90mKLFlHsvn7N3W,Rc2U6E1dg3UNwjL1PLI1fN" />
+            <Link Id="PtICgP6wPobP2sWQiCsp8K" Ids="Rc2U6E1dg3UNwjL1PLI1fN,CJ8qLE95hGCOpytGkw04Kb" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -21134,6 +21139,7 @@
                 <ControlPoint Id="OMI0O5J4cPNOOCqnpb1Jdk" Bounds="734,653" Alignment="Top" />
                 <ControlPoint Id="FmqT5CaKn5UPpqQJdIUJ5w" Bounds="857,653" Alignment="Top" />
                 <ControlPoint Id="AIGqzPbmzdcOb3WMJUeSLW" Bounds="697,991" Alignment="Bottom" />
+                <ControlPoint Id="Sj33TD7w0WXOdTDS5GKjCa" Bounds="892,992" Alignment="Bottom" />
               </Node>
               <Node Bounds="660,512,103,26" Id="G1PQV5qAFnBPAzS129vqKW">
                 <p:NodeReference LastCategoryFullName="VL.UIElements.Int.RadioGroupProperties" LastSymbolSource="UIElements.vl">
@@ -21196,11 +21202,13 @@
                 <Pin Id="RfCjp4l9xN9P3OJhKof6Eh" Name="Velocity" Kind="OutputPin" />
               </Node>
               <Pad Id="JC7eoxwX3Z4NmBy6tqs7Xp" Comment="" Bounds="537,531,35,15" ShowValueBox="true" isIOBox="true" />
+              <ControlPoint Id="LKJO7kbScCAM3rFo37DSRS" Bounds="892,1039" />
             </Canvas>
             <Patch Id="MN4cikyYnmcLDHhxunudpK" Name="Create" />
             <Patch Id="TDwI2Hu4vDZMtk2jSNb9eK" Name="Update">
               <Pin Id="T3cEsCkHwoNPRMuAxYzXJJ" Name="Output" Kind="OutputPin" Bounds="341,1133" />
               <Pin Id="TWhWtHu7kmWQdwRRxd7afm" Name="Properties" Kind="InputPin" Bounds="434,369" />
+              <Pin Id="IA7fdkp4hC5LuUvjjgBRBo" Name="Button Rectangles" Kind="OutputPin" Bounds="881,1070" />
             </Patch>
             <ProcessDefinition Id="VOTP2tWpwQ2MLUyptbrYnK">
               <Fragment Id="JXqZw0uioswNMhY0QhkqRQ" Patch="MN4cikyYnmcLDHhxunudpK" Enabled="true" />
@@ -21246,6 +21254,9 @@
             <Link Id="HsFagDZdmmtPDG4S1k3m1a" Ids="FYS2Jrk1JG0LQLFroN73a5,NlB5inxrfQZOZo0ZI7mYvj" />
             <Link Id="AwVxH5ZhjMqL7cZHl9x9yk" Ids="Lj826VmSzPwPmFxJp3tAbG,HNRk7gOhInlN4dNnQBJGEE" />
             <Link Id="PNDPlD2yCdLNu18tWLIVix" Ids="LY5Oqlz7Zn8PBTdcnNYnSc,PryJqQMuObwPPjG1mr5sfK" />
+            <Link Id="UaFys3FtSD7LPEcgQRcl7h" Ids="Mn32XGkNj1ILsyAIG4DWDT,Sj33TD7w0WXOdTDS5GKjCa" />
+            <Link Id="HDXmP8EPvvbLCtVbA9E7DR" Ids="Sj33TD7w0WXOdTDS5GKjCa,LKJO7kbScCAM3rFo37DSRS" />
+            <Link Id="DvAfrMSLhynQSTdKZruMYv" Ids="LKJO7kbScCAM3rFo37DSRS,IA7fdkp4hC5LuUvjjgBRBo" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>
